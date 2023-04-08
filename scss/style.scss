@@ -1,7 +1,4 @@
-$font-stack: Arial, Helvetica, sans-serif;
-$light-color: #f4f4f4;
-$primary-color: #0e6cff;
-$secondary-color: #ff8700;
+@import 'config';
 
 *{
     box-sizing: border-box;
