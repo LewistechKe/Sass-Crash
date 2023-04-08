@@ -1,5 +1,7 @@
 $font-stack: Arial, Helvetica, sans-serif;
 $light-color: #f4f4f4;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
 
 *{
     box-sizing: border-box;
@@ -11,4 +13,41 @@ body {
     background-color: $light-color;
     font-family: $font-stack;
     line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color : #fff;
+} 
+
+.showcase {
+    background-color: $primary-color;
+    color: #fff;
+    height: 600px;
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+
+            li {
+                padding: 15px;
+            }
+        }
+    }
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+    overflow: auto;
 }
